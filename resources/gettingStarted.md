@@ -85,26 +85,22 @@ see how each functions has a **port** name and a **pin** number
 
 
 
+-------------------------------------------------------------------------------------------
 
+# Beginning STM32 Textbook
 
+## Flashing with Makefiles
 
-
-Beginning STM32 Textbook
-============================================
-********************************************
-
-Flashing with Makefiles
----------------------------------------------
 Use the book called *Begining STM32* by Warren Gay
 
 Got the book from:
-[Springer Link] [https://link.springer.com/book/10.1007/978-1-4842-3624-6]
+[Springer Link](https://link.springer.com/book/10.1007/978-1-4842-3624-6)
 
 **github with example code**
-[github] [https://github.com/Apress/Beg-STM32-Devel-FreeRTOS-libopencm3-GCC]
+[github](https://github.com/Apress/Beg-STM32-Devel-FreeRTOS-libopencm3-GCC)
 
-Setting up Software
-----------------------------------------------
+## Setting up Software
+
 **Download Directory**
 ```bash
 git clone https://github.com/ve3wwg/stm32f103c8t6.git
@@ -122,9 +118,9 @@ then edit the file <stm32f103c8t6/rtos/Project.mk> and change
 FREERTOS ?= FreeRTOSv202012.01-LTS # you can copy the version from your Zip file
 ```
 
-Download an ARM Cross Compiler
-----------------------------------------------
-got to [https://developer.arm.com/]
+## Download an ARM Cross Compiler
+
+got to [The ARM developer website](https://developer.arm.com/)
 got to "Linux and Open Source"
 Download "ARM GNU Embedded Toolchain"
 
@@ -159,15 +155,15 @@ if everything works okay, then you are done setting up the software
 
 
 
-Other
-----------------------------------------------------
-Reddit with ideas: [https://www.reddit.com/r/embedded/comments/gzj59g/compile_from_scratch_without_ide/]
+## Other
+
+Reddit with ideas:(https://www.reddit.com/r/embedded/comments/gzj59g/compile_from_scratch_without_ide/)
 
 Also downloaded and will try stm32flash `sudo apt install stm32flash`
 
-[youtube video] [https://www.youtube.com/watch?v=Hffw-m9fuxc&list=PLNyfXcjhOAwO5HNTKpZPsqBhelLF2rWQx&index=2]
+[youtube video](https://www.youtube.com/watch?v=Hffw-m9fuxc&list=PLNyfXcjhOAwO5HNTKpZPsqBhelLF2rWQx&index=2)
 
-[https://www.e-tinkers.com/2020/01/getting-started-with-stm32-and-things-you-need-to-be-aware-of/]
+(https://www.e-tinkers.com/2020/01/getting-started-with-stm32-and-things-you-need-to-be-aware-of/)
 
 
 
